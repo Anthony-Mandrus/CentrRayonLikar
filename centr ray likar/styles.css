@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    background: #fff;
+    font-size: 14px;
+    color:000000;
+    font-family: 'Anton', sans-serif;
+
+
+}
+
+/*
+-------------CONTAINER-------------
+*/
+
+
+.container{
+
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+
+/*
+-------------HEADER-----------------
+*/
+
+.header{
+
+    width: 100%;
+ background: url(img/intro_bc5.jpg) center
+        no-repeat/ cover;
+}
+
+.upper_header{
+
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+.header_inner{
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+p{
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.75;
+    border-bottom: 2px solid #ffffff;
+    margin-left: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+}
+
+.header_logo{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.header_logo_css{
+    border-radius: 10px;
+    margin-left: 45px;
+}
+
+
+
+h1{
+     color: #ffffff;
+    text-decoration: none;
+     text-transform: uppercase;
+    font-size:14px;
+}
+
+.header-background{
+    opacity: 50%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/*
+-------------NAVIGATION-----------------
+*/
+
+.navig{
+
+    display: flex;
+    font-size: 16px;
+    font-weight: 1000;
+    text-transform: uppercase;
+
+}
+
+.navig_link{
+    margin-left: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.80;
+
+    transition: opacity .1s;
+     transition: background-color .1s;
+    padding: 5px 5px;
+}
+
+
+
+.navig_link:hover{
+    background-color:#01567b;
+    background-size: 10px 10px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+/*
+-------------MAIN-----------------
+*/
+.main{
+    display: flex;
+    text-align: center;
+
+}
+
+.text_info{
+     font-size:24px;
+}
+h5{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:24px;
+    margin: 0 5px;
+    text-align: right;
+}
+
+.main_text{
+    display: flex;
+    margin-right: 50;
+
+}
+
+.main_content_h2{
+    color:#000000;
+
+}
+
+.main_image{
+    display: flex;
+    margin-left: 50px;
+
+}
+
+h3{
+    font-family: sans-serif;
+    margin-left:45px;
+    text-align:justify;
+}
+
+
+/*
+-------------ABOUT US-----------------
+*/
+.background_info{
+     background:
+     url("img/Numbers_phone2.png") center no-repeat/cover;
+    height: 600px;
+
+ }
+.info_title{
+
+}
+
+.info{
+     display: flex;
+    margin: 100px 0;
+}
+
+
+
+.info_about_us{
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 30;
+    margin: 220 0;
+    color:#ffffff;
+
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+     color:#ffffff;
+    text-transform: uppercase;
+    padding:60px 0 0 0;
+
+}
+
+.numb_icon{
+    width: 100px;
+    height: 75px;
+    border-radius: 15px;
+
+}
+
+.numb_of{
+    font-size: 36px;
+    margin: 5px;
+}
+
+.numb_text{
+    font-size: 26px;
+    margin: 0;
+    text-align: center;
+}
+
+
+/*
+-------------departments-----------------
+*/
+
+.main_content_h2{
+    padding-left: 50px;
+    padding: 0;
+
+}
+
+/*
+-------------FOOTER-----------------
+*/
+
+footer{
+    background-color: #45494d;
+    padding: 0 20px 30px;
+
+}
+
+h4{
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+    opacity: .88;
+    text-align: center;
+    letter-spacing:inherit;
+    font-size: 18px;
+
+}
+
+
+/*
+-------------INTRO-----------------
+*/
+
+
+/*
+.intro{
+    height:1000px;
+    background: url(img/intro2.jpg) center
+        no-repeat/ cover;
+}*/
