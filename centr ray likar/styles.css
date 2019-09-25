@@ -129,6 +129,8 @@ h1{
 
 .text_info{
      font-size:24px;
+
+
 }
 h5{
     text-decoration: none;
@@ -159,6 +161,7 @@ h3{
     font-family: sans-serif;
     margin-left:45px;
     text-align:justify;
+    font-weight: normal;
 }
 
 
@@ -222,13 +225,49 @@ h2{
 /*
 -------------departments-----------------
 */
-
+}
 .main_content_h2{
     padding-left: 50px;
-    padding: 0;
+    padding: 0 0;
+     margin: 0;
 
 }
 
+.departmens{
+    display: flex;
+    margin: 100px 0;
+
+}
+
+.departmens_part{
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 30;
+    margin: 220;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#000000;
+}
+
+.departmens_name{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 0;
+
+
+
+}
+.departmens_medic_info{
+    font-size: 16px;
+
+}
+.departmens_description{
+    font-size: 20px;
+    margin-left: 0;
+
+
+}
 /*
 -------------FOOTER-----------------
 */
